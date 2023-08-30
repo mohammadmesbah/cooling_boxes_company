@@ -1,0 +1,219 @@
+nav input{
+    background-color: rgb(4, 4, 39); 
+    color:white;
+    border: none;
+    text-align:center;
+    margin-top:30px;
+    font-size: large;
+}
+nav input:hover{
+    cursor: pointer;
+    color: rgb(164, 67, 228);
+    background-color:#340348;
+}
+.choose_date{
+  width: auto;
+    float: right;
+    font-size: inherit;
+    height: 26px;
+}
+main{
+  width:max-content;
+}
+.bonus_main{
+  width: max-content;
+    height: max-content;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-top: 1%;
+    background-color: #f0e68c;
+    border: 4px dashed black;
+}
+.bonus_main form{
+  text-align:left;
+  color:#3a3434;
+}
+.discount_main{
+  width: max-content;
+  height: max-content;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #f0e68c;
+  border: 4px dashed black;
+}.discount_main form{
+  text-align:left;
+  color:#3a3434;
+}
+.remove_main{
+  width: max-content;
+  height: max-content;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #f0e68c;
+  border: 4px dashed black;
+}.remove_main form{
+  text-align:left;
+  color:#3a3434;
+}
+.receive_salary{
+  width: max-content;
+  height: max-content;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #f0e68c;
+  border: 4px dashed black;
+}
+.receive_salary form{
+  text-align:left;
+  color:#3a3434;
+}
+.main_view{
+    margin-right: auto;
+    margin-left: 2%;
+    width:max-content;
+    margin-top: 1%;
+    float: left;
+}
+.today_view{
+    float:left;
+}
+.main_money_view{
+    margin-right: auto;
+    margin-left: 55px;
+    background-color: #090934;
+    margin-top: 1%;
+    float: right;
+}
+.money_view{
+  float:right;
+}
+table, th, td {
+  border: 1px solid;
+  font-size:medium;
+  color:white;
+  background-color: #090934;
+  text-align: center;
+}
+th{
+  background-color: #f0e68c;
+  color: black;
+}
+td{
+    width: 100px;
+    height:40px;
+    padding: 5px;
+}
+.info td{
+  width:50px;
+  padding:5px;
+  height: max-content;
+}
+.info{
+  height: max-content;
+}
+.submit{
+  float:right; margin-bottom: -1px;
+  font-size: medium; font-weight: bold; 
+  padding: 10px; width: 165px; 
+  background-color: #0d032a;
+}
+.select_date{
+  background-color: #f0e68c;
+  color: rgb(4, 4, 39);
+  font-size: large;
+}
+form {
+  margin: 10px;
+  margin-right: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+form label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #333;
+  height: 20px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  clear: both;
+  float:left;
+  /*margin-right:15px;*/
+ }
+form input{
+  background-color: rgb(4, 4, 39); 
+  color:rgb(255, 255, 255);
+  border: none;
+  margin-top:10px;
+  font-size: medium;
+  height: 30px;
+}
+input:hover{
+  cursor: pointer;
+  color: rgb(164, 67, 228);
+}
+select{
+  width: 300px;
+  height: 30px;
+  font-size: large;
+  background-color: #f8f4ce;
+  text-align: center;
+  color: brown;
+}
+
+main label{
+  color:black;
+}
+main input{
+  background-color: #f8f4ce;
+  border: 1px solid black;
+  color: brown;
+  text-align: center;
+  font-size: large;
+}
+main input:hover{
+  color: brown;
+}
+main{
+  width:max-content;
+height:max-content;
+background:#f0e68c;
+  display: table;
+  margin-left: 100px;
+  margin-right: auto;
+  border: 3px dashed rgb(10, 10, 54);
+  padding: 10px;
+  margin-top: 1%;
+  float: left;
+  font-size: large;
+}
+.info{
+  float: left;
+  width: max-content;
+  margin-top: 1%;
+  padding: 10px;
+}
+table, th, td {
+  border: 1px solid;
+  font-size:medium;
+  color:white;
+  background-color: #090934;
+  text-align: center;
+}
+th{
+  background-color: #f0e68c;
+  color: black;
+}
+.dash{
+  background-color: #f0e68c;
+  margin-top: 5%;
+}

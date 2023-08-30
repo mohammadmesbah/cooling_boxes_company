@@ -1,0 +1,47 @@
+
+nav{
+    position: inherit;
+}
+.calculate_section{
+    width:max-content;
+    height: max-content;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-top: 2%;
+    background-color: #f0e68c;
+    border: 4px dashed black;
+    position: absolute;
+  left: 160px;
+}
+.calculate_section form{
+    text-align:left;
+    color:#55084e;
+}
+.calculate_section form input{
+    background-color: rgb(4, 4, 39); 
+    color:rgb(255, 255, 255);
+    border: none;
+    margin-top:10px;
+    font-size: medium;
+    height: 30px;
+
+}
+.calculate_section form input.submit{
+    float:right;
+    height: 50px;
+    width: 85px;
+    background-color: #580a52;
+}
+.calculate_section form label{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    clear: both;
+    float:left;
+  }

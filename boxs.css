@@ -1,0 +1,85 @@
+nav{
+  position: inherit;
+}
+
+tr,th,td{
+ width: min-content;
+ height: min-content;
+ font-size: x-small;
+}
+
+nav input{
+    background-color: rgb(4, 4, 39); 
+    color:white;
+    border: none;
+    text-align:center;
+    margin-top:30px;
+    font-size: large;
+}
+nav input:hover{
+    cursor: pointer;
+    color: rgb(164, 67, 228);
+    background-color:#340348;
+}
+.main{
+    margin-top: 77px;
+    position: inherit;
+    float: right;
+}
+.add_box_section , .selling_section , .do_edit_box_section , .edit_box_section , .remove_section{
+      width:max-content;
+      height: max-content;
+      text-align: left;
+      color: white;
+      display: inline-block;
+      margin-top: 5%;
+      background-color: #f0e68c;
+      border: 4px dashed black;
+      position: absolute;
+      left: 160px;
+}
+.do_edit_box_section{
+  float: left;
+}
+  .selling_section form , .add_box_section form , .do_edit_box_section form , .edit_box_section form , .remove_section form{
+    text-align:left;
+    color:#55084e;
+  }
+  .selling_section form input , .add_box_section form input , .do_edit_box_section form input,
+   .edit_box_section form input , .remove_section form input{
+    background-color: rgb(4, 4, 39); 
+    color:rgb(255, 255, 255);
+    border: none;
+    margin-top:10px;
+    font-size: medium;
+    height: 30px;
+
+  }
+  .selling_section form input.submit , .add_box_section  form input.submit , .do_edit_box_section form input.submit, 
+  .edit_box_section form input.submit , .remove_section form input.submit{
+    float:right;
+    height: 50px;
+    width: 85px;
+    background-color: #580a52;
+  }
+  .do_edit_box_section form input.submit{
+    float:right;
+    width: 85px;
+    background-color: #6b0d63;
+    font-size: 15px;
+    height: 32px;
+  }
+  .selling_section form label , .add_box_section  form label , .do_edit_box_section form label, .edit_box_section form label
+  , .remove_section form label{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    clear: both;
+    float:left;
+  }
+ 

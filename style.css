@@ -1,0 +1,112 @@
+body{
+direction: ltr;  
+margin:0;
+}
+header, footer, main, aside, nav, div {
+    padding: 1%;
+    border: solid 2px #000000;
+    margin: 1px;
+    font: bold 40px "Courier New", Courier, monospace;
+    white-space: inherit;
+    background-color: #090934;
+    /*box-shadow: 5px 5px 8px #050538, 10px 10px 8px #720661;, 20px 20px 18px #0e0883;;*/
+}
+div{
+    text-align: center;
+    text-align: center;
+    background-color: #090934;
+    color: white;
+    font-size: xx-large;
+}
+
+nav{
+   background-color: rgb(4, 4, 39); 
+   color: white;
+   border: none;
+   width: max-content;
+   height:741px;
+   padding: 20px;
+   padding-left: 0px;
+   display: block;
+   box-shadow: 5px 10px 20px #720661 inset;
+  /*  align-items: flex-start;
+   align-self: stretch; */
+   float: left;
+   text-align: center;
+   margin-top: 0px;
+   height: fit-content;
+}
+form {
+    margin: 10px;
+    margin-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+form input{
+    background-color: rgb(4, 4, 39); 
+    color:white;
+    border: none;
+    margin-top:10px;
+    font-size: medium;
+}
+input:hover{
+    cursor: pointer;
+    color: rgb(164, 67, 228);
+}
+select{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    background-color: #f8f4ce;
+    text-align: center;
+    color: brown;
+}
+
+main label{
+    color:black;
+}
+main input{
+    background-color: #f8f4ce;
+    border: 1px solid black;
+    color: brown;
+    text-align: left;
+}
+main input:hover{
+    color: brown;
+}
+main{
+    width:45%;
+	height:max-content;
+	background:#f0e68c;
+    display: table;
+    margin-left: 100px;
+    margin-right: auto;
+    border: 3px dashed rgb(10, 10, 54);
+    padding: 10px;
+    margin-top: 1%;
+    float: left;
+    font-size: large;
+}
+.info{
+    float: left;
+    width: max-content;
+    margin-top: 1%;
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid;
+    font-size:medium;
+    color:white;
+    background-color: #090934;
+    text-align: center;
+  }
+th{
+    background-color: #f0e68c;
+    color: black;
+}
+.dash{
+    background-color: #f0e68c;
+    margin-top: 5%;
+}
